@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html#health-indicators-and-indices",
+    "href": "index.html#health-indicators-and-indices",
+    "title": "Health Indicators",
+    "section": "1 Health Indicators and Indices",
+    "text": "1 Health Indicators and Indices\n\nHealth Indicators: Directly measurable variables reflecting a population’s health such as infant mortality rate and life expectancy.\nHealth Indices: Composite measures combining multiple indicators to give an overview of health status, like the Human Development Index.\n\n\n\nSee Box 3.1 and Box 3.3 for more details."
+  },
+  {
+    "objectID": "index.html#sources-and-quality-of-health-data",
+    "href": "index.html#sources-and-quality-of-health-data",
+    "title": "Health Indicators",
+    "section": "2 Sources and quality of health data",
+    "text": "2 Sources and quality of health data\n\nSee Table 3.1 -sources of data to compilate indicators.\nHealth data sources are crucial for compiling health indicators.\nData can originate from individuals, healthcare providers, or be generated through health surveys and administrative databases.\n\nActive or passive?\n\nActive Data Sources: Require efforts to solicit and collect information, e.g., health surveys.\nPassive Data Sources: Routinely submitted by other entities, e.g., vital statistics."
+  },
+  {
+    "objectID": "index.html#summary-measures-of-population-health",
+    "href": "index.html#summary-measures-of-population-health",
+    "title": "Health Indicators",
+    "section": "3 Summary measures of population health",
+    "text": "3 Summary measures of population health\nIntegrating Mortality and Morbidity\n\nHealth indices like DFLE, DALE, DALY, HALE, QALY, and HLY combine measures of mortality with morbidity or disability into a single comprehensive figure.\nThese measures differ in how they account for morbidity:\n\nActivities of daily living\nSelf-rated health\nActivity limitations (institutional and non-institutional)"
+  },
+  {
+    "objectID": "index.html#understanding-icd-9-and-icd-10-codes",
+    "href": "index.html#understanding-icd-9-and-icd-10-codes",
+    "title": "Health Indicators",
+    "section": "4 Understanding ICD-9 and ICD-10 Codes",
+    "text": "4 Understanding ICD-9 and ICD-10 Codes\n\nWhat is ICD?\n\nThe International Classification of Diseases (ICD) is a standardized system for classifying diseases, conditions, and procedures.\nMaintained by the World Health Organization (WHO), it is used for healthcare administration, epidemiology, and research."
+  }
+]
