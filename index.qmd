@@ -22,6 +22,7 @@ format:
 }
 </style>
 ```
+
 ```{=html}
 <style>
 .highlight-box {
@@ -31,6 +32,7 @@ format:
 }
 </style>
 ```
+
 ```{=html}
 <style>
 ul {
@@ -42,6 +44,7 @@ ul ul {
 }
 </style>
 ```
+
 ![](imgs/ai.jpg){fig-align="center"}
 
 # [**Chapter Overview**]{style="color: blue;"}
@@ -50,13 +53,12 @@ ul ul {
 -   **Sources and Evaluation of Health Data**: Primary, secondary data, passive and active collection.
 -   **Disease Definition and Classification**: How do we classify diseases? (ICD9, ICD10-codes)
 
-
 ------------------------------------------------------------------------
 
 ## [1]{.circle} [**Health Indicators and Indices**]{style="color: teal;"}
 
 -   **Health Indicators**: Directly measurable variables reflecting a population's health such as infant mortality rate and life expectancy.
--   **Health Indices**: Composite measures combining multiple indicators to give an overview of health status, like the Human Development Index.
+-   **Health Indices**: Composite measures combining multiple indicators to give an overview of health status: Human Development Index ([Map](https://ourworldindata.org/grapher/human-development-index), and [Graph](https://hdr.undp.org/data-center/human-development-index#/indicies/HDI)).
 
 ![](imgs/index.jpg){fig-align="center" width="527"}
 
@@ -68,7 +70,7 @@ ul ul {
 
 -   How are health indicators used to monitor and assess population health, informing public health decisions and policy-making?
 
-::: columns
+::::: columns
 ::: {.column width="45%" style="font-size: 24px; line-height: 1.2;"}
 #### Essential Qualities {style="color: blue;"}
 
@@ -84,14 +86,13 @@ ul ul {
 -   **Feasibility**: Can be realistically collected and sustained.
 -   **Universality**: Applicable across different settings and populations.
 :::
-:::
+:::::
 
 ------------------------------------------------------------------------
 
 ## [2]{.circle} [**Sources and quality of health data**]{style="color: teal;"}
 
--   See [**Table 3.1**]{.highlight-box} -sources of data to compilate indicators.
--   Health data sources are crucial for compiling health indicators.
+-   Health data sources are crucial for compiling health indicators (**Table 3.1)**.
 -   Data can originate from individuals, healthcare providers, or be generated through health surveys and administrative databases.
 
 ### [**Active or passive?**]{style="color: pink;"}
@@ -112,26 +113,14 @@ ul ul {
 
 ------------------------------------------------------------------------
 
-### [**Health Information System (HIS)**]{style="color: pink;"}
-
--   An organized set of activities whose purpose is to **gather, maintain, and provide health-related information** to improve health outcomes.
-
--   Components:
-
-    -   Disease registries
-    -   Utilization databases
-    -   National health surveys
-
-------------------------------------------------------------------------
-
 ### [**Disease Registries and Notifiable Diseases**]{style="color: pink;"}
 
 -   **Disease Registries**
     -   Important for estimating disease incidence and prevalence.
-    -   Cover various conditions from cancer to communicable diseases.
+    -   Cancer to communicable diseases, etc..
 -   **Notifiable Diseases**
-    -   Diseases that must be reported to national health authorities.
-    -   Managed by systems like the CDC's National Notifiable Diseases Surveillance System.
+    -   Must be reported to national health authorities. Measles,Chlamydia, gonorrhea,*E. coli* infection, Tuberculosis..
+    -   Managed by systems such as the CDC's National Notifiable Diseases Surveillance System.
 
 ------------------------------------------------------------------------
 
@@ -140,13 +129,11 @@ ul ul {
 -   **Measuring Health Service Utilization**
     -   Utilization data from Medicare, Medicaid, and health maintenance organizations provide insights into health service use.
 -   **Health Surveys**
-    -   Gather data on health behaviors, practices, and perceptions.
+    -   Gather data on health behaviors, practices, and perceptions (BRFSS).
     -   Vary by mode of interview and can be influenced by respondents' perceptions and recall accuracy.
     -   See [**Table 3.2**]{.highlight-box} for pros and cons of survey type
     -   Cross-section (versus longitudinal)
-    -   Likert scale!
-    -   Self-rated survey
-        -   Surprisingly good (dynamic)
+    -   Likert scale, self-rated survey
     -   QOL - see the one for [Charlotte, NC](https://maps.mecklenburgcountync.gov/qol/)
 
 ------------------------------------------------------------------------
@@ -170,11 +157,7 @@ ul ul {
 
 ### [**Integrating Mortality and Morbidity**]{style="color: pink;"}
 
--   Health indices like DFLE, DALE, DALY, HALE, QALY, and HLY combine measures of mortality with morbidity or disability into a single comprehensive figure.
--   These measures differ in how they account for morbidity:
-    -   Activities of daily living
-    -   Self-rated health
-    -   Activity limitations (institutional and non-institutional)
+-   Health indices like DALY, QALY, and many others (not cited here) combine measures of mortality with morbidity or disability into a single comprehensive figure.
 
 ------------------------------------------------------------------------
 
@@ -231,7 +214,6 @@ ul ul {
 ### [**DALY: takeaways**]{style="color: pink;"}
 
 -   **DALY as a Critical Metric**: Essential for public health planning and resource allocation.
--   **Balancing Mortality & Morbidity Interventions**: Addressing both premature death and quality of life impairments.
 -   **Health Equity Considerations**: Ensuring interventions reach vulnerable populations.
 -   **Data-Driven Public Health Strategies**: Using DALY to guide policy decisions and optimize healthcare spending.
 
@@ -245,6 +227,16 @@ ul ul {
 
 ------------------------------------------------------------------------
 
+### [**In-class exercise**]{style="color: pink;"}
+
+-   Let's look at this patient. The principal diagnosis (ICD9 code is **V3000**; look it up using AI for instance)
+
+-   These are secondary diagnoses - look them up - 76502, 77181, 7707, 77212, 77081, 7470, 7455, 77182, 2760, 76522, 7742, 769, 04110, 7793, 6910, 75432, 4019, 0416, 0413, 9999, 2768.
+
+-   *What can we tell about this patient?*
+
+------------------------------------------------------------------------
+
 ### [**Transitioning from ICD9 to ICD10**]{style="color: pink;"}
 
 -   **Transition from ICD-9 to ICD-10**:
@@ -252,9 +244,9 @@ ul ul {
     -   Greater **specificity and accuracy**, especially in classifying complex diseases.
     -   Improved tracking of **public health trends and emerging diseases**.
 -   **Key Differences Between ICD-9 and ICD-10**:
-    -   **Specificity**: ICD-10 codes provide detailed descriptions, including laterality (left vs. right).
+    -   **Specificity**: ICD-10 codes provide detailed descriptions.
+
     -   **Combination Codes**: ICD-10 combines multiple conditions into a single code (e.g., **diabetes with kidney disease**).
-    -   **Expanded Code Structure**: ICD-10 uses **alphanumeric codes (A00-Z99)** compared to the numeric structure of ICD-9.
 
 ------------------------------------------------------------------------
 
@@ -277,16 +269,3 @@ ul ul {
 -   **Healthcare Reimbursement**: Ensures accurate **billing and insurance claims**.
 
 -   **Policy and Research**: Facilitates **international comparisons** of health data.
-
-------------------------------------------------------------------------
-
-### [**In-class exercise**]{style="color: pink;"}
-
--   Let's look at this patient. The principal diagnosis (ICD9 code is **V3000**; look it up)
-
--   These are secondary diagnoses - look them up - 76502, 77181, 7707, 77212, 77081, 7470, 7455, 77182, 2760, 76522, 7742, 769, 04110, 7793, 6910, 75432, 4019, 0416, 0413, 9999, 2768.
-
--   *What can we tell about this patient?*
-
-
-
